@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">Simulasi layout</layout>
+        <layout order="3">Quiz layout No 1</layout>
+        <layout order="6">Quiz layout No 2</layout>
+        <layout order="8">Quiz layout No 3</layout>
+        <layout active="1" order="9">Home layout</layout>
+        <event-sheet order="0">Home</event-sheet>
+        <event-sheet order="2">Event sheet 1</event-sheet>
+        <event-sheet order="4">Event sheet 2</event-sheet>
+        <event-sheet order="5">Event sheet 3</event-sheet>
+        <event-sheet order="7">Event sheet 4</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/judul_Game/" />
+        <folder expanded="1" path="animation-folder/background/" />
+        <folder expanded="1" path="animation-folder/papan/" />
+        <folder expanded="1" path="animation-folder/button_simulasi/" />
+        <folder expanded="1" path="animation-folder/button_materi/" />
+        <folder expanded="1" path="animation-folder/button_quiz/" />
+        <folder expanded="1" path="animation-folder/button_musik/" />
+        <folder expanded="1" path="animation-folder/button_close/" />
+        <folder expanded="1" path="animation-folder/button_musik_off/" />
+        <folder expanded="1" path="animation-folder/background_materi/" />
+        <folder expanded="1" path="animation-folder/bangun_datar/" />
+        <folder expanded="1" path="animation-folder/persegi_panjang/" />
+        <folder expanded="1" path="animation-folder/P_materi/" />
+        <folder expanded="1" path="animation-folder/button_definisi/" />
+        <folder expanded="1" path="animation-folder/button_luas/" />
+        <folder expanded="1" path="animation-folder/button_keliling/" />
+        <folder expanded="1" path="animation-folder/button_back/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/background_layout/" />
+        <folder expanded="1" path="animation-folder/SimulasiTxt/" />
+        <folder expanded="1" path="animation-folder/persegi_panjang_shape/" />
+        <folder expanded="1" path="animation-folder/Pop_Up_Simulasi/" />
+        <folder expanded="1" path="animation-folder/back_simulasi/" />
+        <folder expanded="1" path="animation-folder/bg_quiz/" />
+        <folder expanded="1" path="animation-folder/textQuiz/" />
+        <folder expanded="1" path="animation-folder/Quiz_PopUp/" />
+        <folder expanded="1" path="animation-folder/persegiPanjang_quiz/" />
+        <folder expanded="1" path="animation-folder/layout_jawaban/" />
+        <folder expanded="1" path="animation-folder/papanSkor/" />
+        <folder expanded="1" path="animation-folder/backQuiz/" />
+    </folders-expanded>
+</c2uistate>

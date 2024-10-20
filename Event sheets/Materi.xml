@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Materi</name>
+    <events>
+        <event-block sid="542553443074851">
+            <conditions>
+                <condition id="3" name="On touched object" sid="808796407217722" type="Touch">
+                    <param id="0" name="Object">button_back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="376505605567855" type="System">
+                    <param id="0" name="Layout">Home layout</param>
+                </action>
+                <action id="0" name="Set cursor style" sid="892534491251822" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+                <action id="6" name="Stop" sid="238983816909129" type="Audio">
+                    <param id="0" name="Tag">&quot;backsound&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="666922442462562">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="241566690661614" type="Mouse">
+                    <param id="0" name="Object">button_back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="708298006583727" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="920059492907889" title="Animation">
+            <sub-events>
+                <event-block sid="233359846468110">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="462847469786204" type="Touch">
+                            <param id="0" name="Object">button_definisi</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="210961909529337" type="teks_definisi">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="712161060056076" type="teks_keliling">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="204997752692690" type="teks_luas">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="0" name="Start timer" sid="794267562463670" type="teks_definisi">
+                            <param id="0" name="Duration">0.2</param>
+                            <param id="1" name="Type">1</param>
+                            <param id="2" name="Tag">&quot;definisi&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="606537251077934" type="teks_keliling">
+                            <param id="0" name="Tag">&quot;keliling&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="386934166315741" type="teks_definisi">
+                            <param id="0" name="Tag">&quot;luas&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="710930634315965">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="230818897148820" type="Touch">
+                            <param id="0" name="Object">button_keliling</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="250979614466604" type="teks_definisi">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="761131328446485" type="teks_luas">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="0" name="Start timer" sid="961311331469463" type="teks_keliling">
+                            <param id="0" name="Duration">0.2</param>
+                            <param id="1" name="Type">1</param>
+                            <param id="2" name="Tag">&quot;keliling&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="512677868474713" type="teks_definisi">
+                            <param id="0" name="Tag">&quot;definisi&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="367360614511774" type="teks_luas">
+                            <param id="0" name="Tag">&quot;luas&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="449583813799525">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="110855703889446" type="Touch">
+                            <param id="0" name="Object">button_luas</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="262860016738992" type="teks_definisi">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="889813084169765" type="teks_keliling">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="0" name="Start timer" sid="259570237268147" type="teks_luas">
+                            <param id="0" name="Duration">0.2</param>
+                            <param id="1" name="Type">1</param>
+                            <param id="2" name="Tag">&quot;luas&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="480140826548626" type="teks_keliling">
+                            <param id="0" name="Tag">&quot;keliling&quot;</param>
+                        </action>
+                        <action behavior="Timer" id="1" name="Stop timer" sid="247608774286358" type="teks_definisi">
+                            <param id="0" name="Tag">&quot;definisi&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="721205912630713" title="Timer">
+            <sub-events>
+                <event-block sid="853932048371194">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="667342359596563" type="teks_definisi">
+                            <param id="0" name="Tag">&quot;definisi&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="236512755599611" type="teks_definisi">
+                            <param id="0" name="Text">mid(teks_definisi.definisi,len(teks_definisi.Text),4)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="754623581131518">
+                            <conditions>
+                                <condition id="0" name="Compare text" sid="794476791186953" type="teks_definisi">
+                                    <param id="0" name="Text to compare">teks_definisi.definisi</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="1" name="Stop timer" sid="111505899441010" type="teks_definisi">
+                                    <param id="0" name="Tag">&quot;definisi&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="324149801527840">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="632968380693536" type="teks_keliling">
+                            <param id="0" name="Tag">&quot;keliling&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="497964579568694" type="teks_keliling">
+                            <param id="0" name="Text">mid(teks_keliling.keliling,len(teks_keliling.Text),2)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="560989595888031">
+                            <conditions>
+                                <condition id="0" name="Compare text" sid="361667022855188" type="teks_keliling">
+                                    <param id="0" name="Text to compare">teks_keliling.keliling</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="1" name="Stop timer" sid="815659726512373" type="teks_keliling">
+                                    <param id="0" name="Tag">&quot;keliling&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="748682032402802">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="409068905883086" type="teks_luas">
+                            <param id="0" name="Tag">&quot;luas&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="355456149142705" type="teks_luas">
+                            <param id="0" name="Text">mid(teks_luas.luas,len(teks_luas.Text),2)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="271325652148662">
+                            <conditions>
+                                <condition id="0" name="Compare text" sid="282784139057430" type="teks_luas">
+                                    <param id="0" name="Text to compare">teks_luas.luas</param>
+                                    <param id="1" name="Case sensitivity">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Timer" id="1" name="Stop timer" sid="167426860341930" type="teks_luas">
+                                    <param id="0" name="Tag">&quot;luas&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

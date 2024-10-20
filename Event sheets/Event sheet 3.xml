@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="176794108914388">
+            <conditions>
+                <condition id="3" name="On touched object" sid="222738024720748" type="Touch">
+                    <param id="0" name="Object">layout_jawaban</param>
+                </condition>
+                <condition id="-14" name="Pick by unique ID" sid="234360334477823" type="layout_jawaban">
+                    <param id="0" name="Unique ID">61</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="549380647653073" type="System">
+                    <param id="0" name="Variable">skor</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="745843046979570" type="System">
+                    <param id="0" name="Layout">Quiz layout No 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="847666673997221">
+            <conditions>
+                <condition id="3" name="On touched object" sid="891945087530987" type="Touch">
+                    <param id="0" name="Object">layout_jawaban</param>
+                </condition>
+                <condition id="-14" inverted="1" name="Pick by unique ID" sid="391636369690713" type="layout_jawaban">
+                    <param id="0" name="Unique ID">44</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="685225413866770" type="System">
+                    <param id="0" name="Layout">Quiz layout No 3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

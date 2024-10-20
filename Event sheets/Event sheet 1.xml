@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="keliling" sid="789980129195671" static="0" type="number">0</variable>
+        <variable constant="0" name="luas" sid="195344881429880" static="0" type="number">0</variable>
+        <event-block sid="977132015412947">
+            <conditions>
+                <condition id="2" name="On changed" sid="894204492629144" type="sliderLebar" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="515478343998815" type="System">
+                    <param id="0" name="Variable">luas</param>
+                    <param id="1" name="Value">sliderPanjang.Value * sliderLebar.Value</param>
+                </action>
+                <action id="-9" name="Set value" sid="132388604739659" type="System">
+                    <param id="0" name="Variable">keliling</param>
+                    <param id="1" name="Value">(sliderLebar.Value + sliderPanjang.Value) *2 </param>
+                </action>
+                <action id="0" name="Set text" sid="626631860284167" type="Luas">
+                    <param id="0" name="Text">&quot;Luas = &quot; &amp; luas &amp;&quot; cm2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="597969575497383" type="Keliling">
+                    <param id="0" name="Text">&quot;Keliling = &quot; &amp; keliling &amp; &quot; cm&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="775045327146602" type="Lebar_txt">
+                    <param id="0" name="Text">sliderLebar.Value &amp;&quot; cm&quot;</param>
+                </action>
+                <action id="-6" name="Set height" sid="762580724690007" type="persegi_panjang_shape">
+                    <param id="0" name="Height">sliderLebar.Value *3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="935855231997318">
+            <conditions>
+                <condition id="2" name="On changed" sid="334291252079348" type="sliderPanjang" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="628042639522564" type="System">
+                    <param id="0" name="Variable">luas</param>
+                    <param id="1" name="Value">sliderPanjang.Value * sliderLebar.Value </param>
+                </action>
+                <action id="-9" name="Set value" sid="147959984043509" type="System">
+                    <param id="0" name="Variable">keliling</param>
+                    <param id="1" name="Value">(sliderLebar.Value + sliderPanjang.Value) *2 </param>
+                </action>
+                <action id="0" name="Set text" sid="502791282071018" type="Luas">
+                    <param id="0" name="Text">&quot;Luas = &quot; &amp; luas &amp;&quot; cm2&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="946223059273370" type="Keliling">
+                    <param id="0" name="Text">&quot;Keliling = &quot; &amp; keliling &amp; &quot; cm&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="388707445277962" type="Panjang_txt">
+                    <param id="0" name="Text">sliderPanjang.Value &amp;&quot; cm&quot;</param>
+                </action>
+                <action id="-5" name="Set width" sid="177174186514910" type="persegi_panjang_shape">
+                    <param id="0" name="Width">sliderPanjang.Value * 3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="726810176918800">
+            <conditions>
+                <condition id="3" name="On touched object" sid="210502994539196" type="Touch">
+                    <param id="0" name="Object">back_simulasi</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="119494326116799" type="System">
+                    <param id="0" name="Layout">Home layout</param>
+                </action>
+                <action id="6" name="Stop" sid="984120463409853" type="Audio">
+                    <param id="0" name="Tag">&quot;backsound&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

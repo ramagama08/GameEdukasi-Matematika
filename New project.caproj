@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.5">LiteTween</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="judul_Game" sid="797560149859389">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="143851324870937">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777906702977149" speed="5">
+                    <frame duration="1" hotspotX="0.50084" hotspotY="0.501085" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\BangunDatar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background" sid="284329871580058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655495495283305" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papan" sid="689148993206404">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="451697581637047">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155540520655612" speed="5">
+                    <frame duration="1" hotspotX="0.500103" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\Papan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_simulasi" sid="688400420990794">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="360290383436617">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="954781627215265" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Simulasi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_materi" sid="398750772914236">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="300862610105387">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="985122309144209" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501832" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\materi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_quiz" sid="437804597075804">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="754515943658096">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521180254379896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502222" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Quiz.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_musik" sid="580258708754735">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="137104728391529">
+                    <behavior id="Timer" />
+                </behavior-type>
+                <behavior-type name="LiteTween" sid="443870270052820">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994313359906164" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501458" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Suara.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_close" sid="584203301258253">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="975917581064919">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="474159878167117" speed="5">
+                    <frame duration="1" hotspotX="0.502058" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\Button X.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_musik_off" sid="289283812846219">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Timer" sid="355363063316344">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855524527511876" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\off musik.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="904030194226044">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Touch" sid="217170723478559">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="281403823131420">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Browser" sid="770958475015165">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="background_materi" sid="788138414799017">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246995874039452" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bangun_datar" sid="103649263062763">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349186018312064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\persegi panjang.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="persegi_panjang" sid="469280421190462">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818052710711858" speed="5">
+                    <frame duration="1" hotspotX="0.500097" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.persegipanjang.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_materi" sid="266176422815061">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959962830674806" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501094" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\P.materi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_definisi" sid="849923800895131">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="653579722167777" speed="5">
+                    <frame duration="1" hotspotX="0.500244" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Definisi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_luas" sid="776986155705378">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945320608241203" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500536" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Luas.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_keliling" sid="480852693145883">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="878100303936211" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500542" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.Keliling.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="button_back" sid="622273280126951">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491878269491367" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\PROJEK CONSTRUCT 2\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="teks_definisi" sid="978095890016580">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="definisi" sid="660495368347111" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="215214558277311">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="teks_luas" sid="118786290547866">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="luas" sid="242689166340695" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="920739477362862">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="teks_keliling" sid="711223587217610">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="keliling" sid="221323185156669" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Timer" sid="664556634012542">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite" sid="325618340050365">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538343800126381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="background_layout" sid="500584839371714">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686396665808844" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SimulasiTxt" sid="490378956969597">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="207270017343168">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="544561585204244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\Txt.simulasi.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="persegi_panjang_shape" sid="157542627284305">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581271552917624" speed="5">
+                    <frame duration="1" hotspotX="0.500097" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.persegipanjang.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pop_Up_Simulasi" sid="679466649096981">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="125806223582608" speed="5">
+                    <frame duration="1" hotspotX="0.500167" hotspotY="0.500239" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\PopUp.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sliderPanjang" sid="252785042293917">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="sliderLebar" sid="182850054087825">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="Panjang_txt" sid="272977457299659">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lebar_txt" sid="755275800545445">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Panjang" sid="355613074286549">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Lebar" sid="623454435911468">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Luas" sid="403428643739309">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Keliling" sid="261966102251905">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="back_simulasi" sid="860096592428363">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354567636456731" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_quiz" sid="587646362426480">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607892997078120" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\vecteezy_nature-landscape-vector-illustration-with-a-cute-and_13549621-1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textQuiz" sid="553767352663257">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218043853955012" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500341" original-source="C:\Users\haidar\Downloads\T.Quiz.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Quiz_PopUp" sid="537800244949207">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981066279029683" speed="5">
+                    <frame duration="1" hotspotX="0.500167" hotspotY="0.500239" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\PopUp.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textSoal" sid="357780298766179">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="persegiPanjang_quiz" sid="512256879151621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="886278685190241" speed="5">
+                    <frame duration="1" hotspotX="0.500097" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\persegiPanjang_quiz.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="layout_jawaban" sid="467759277060103">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748201188450050" speed="5">
+                    <frame duration="1" hotspotX="0.500066" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\jawaban.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papanSkor" sid="882787244825283">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="140918985998245">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364180960745889" speed="5">
+                    <frame duration="1" hotspotX="0.500103" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\Papan.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textSkor" sid="406332444596297">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="477584975360130">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="backQuiz" sid="460509357876520">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="524404563248314">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="257194170927306" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\haidar\Documents\PROJEK 2 GAME EDUKASI MATEMATIKA\assets\B.back.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Home layout.xml</layout>
+        <layout>Materi layout.xml</layout>
+        <layout>Simulasi layout.xml</layout>
+        <layout>Quiz layout No 1.xml</layout>
+        <layout>Quiz layout No 2.xml</layout>
+        <layout>Quiz layout No 3.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Home.xml</event-sheet>
+        <event-sheet>Materi.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="9" />
+        <global-instance type="Touch" uid="10">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="11">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="12" />
+    </global-instances>
+    <sounds-folder>
+        <file name="y2mate.com - Kids Background Music Free Funny Song_480p.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

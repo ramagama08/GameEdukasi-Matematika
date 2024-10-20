@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Home</name>
+    <events>
+        <event-group description="" sid="300468424850236" title="Animasi">
+            <sub-events>
+                <event-block sid="955110427884251">
+                    <conditions>
+                        <condition behavior="LiteTween" id="4" name="On tween end" sid="258218029469189" type="judul_Game" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="443215632292291" type="button_simulasi">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="533330505916126" type="button_materi">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="400061116978849" type="button_quiz">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="908906455255471" type="button_musik">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="10" name="Start" sid="171813493969689" type="button_close">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="598491472023061">
+                    <conditions>
+                        <condition behavior="LiteTween" id="4" name="On tween end" sid="643987210424217" type="papan" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="776053036805780" type="judul_Game">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="216741840956128" title="Mouse control">
+            <sub-events>
+                <event-block sid="982845017044670">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="875531367096871" type="Mouse">
+                            <param id="0" name="Object">button_musik</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="741921176873275" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="284758046600219">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="180120549570631" type="Mouse">
+                            <param id="0" name="Object">button_musik_off</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="549653304655174" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="991719839857352">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="162251396498908" type="Touch">
+                            <param id="0" name="Object">button_musik</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="152724175056307" type="button_musik">
+                            <param id="0" name="Y">-100</param>
+                        </action>
+                        <action behavior="Timer" id="0" name="Start timer" sid="737076470261845" type="button_musik">
+                            <param id="0" name="Duration">0.2</param>
+                            <param id="1" name="Type">0</param>
+                            <param id="2" name="Tag">&quot;stopMusic&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="626400889421870" type="Audio">
+                            <param id="0" name="Tag">&quot;backsound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="600246907836721">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="856077168529598" type="button_musik">
+                            <param id="0" name="Tag">&quot;stopMusic&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="204520516537291" type="button_musik_off">
+                            <param id="0" name="Y">49</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="353647353515293">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="963863542034491" type="Touch">
+                            <param id="0" name="Object">button_musik_off</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="121258033664341" type="button_musik_off">
+                            <param id="0" name="Y">-100</param>
+                        </action>
+                        <action behavior="Timer" id="0" name="Start timer" sid="696982517394017" type="button_musik_off">
+                            <param id="0" name="Duration">0.2</param>
+                            <param id="1" name="Type">0</param>
+                            <param id="2" name="Tag">&quot;startMusic&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="382008147458054" type="Audio">
+                            <param id="0" name="Audio file">y2mate.com - Kids Background Music Free Funny Song_480p</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;backsound&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="357050803086653">
+                    <conditions>
+                        <condition behavior="Timer" id="0" name="On timer" sid="740763486795711" type="button_musik_off">
+                            <param id="0" name="Tag">&quot;startMusic&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="494478561635244" type="button_musik">
+                            <param id="0" name="Y">49</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="363738590107623" title="touch button">
+                    <sub-events>
+                        <event-block sid="298877415788220">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="341163578358168" type="Touch">
+                                    <param id="0" name="Object">button_close</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="1" name="Close" sid="829928394462719" type="Browser" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="518278994641364">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="186997580649518" type="Touch">
+                                    <param id="0" name="Object">button_materi</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="986733322913597" type="System">
+                                    <param id="0" name="Layout">Materi layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="480403136203154">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="939337470486130" type="Touch">
+                                    <param id="0" name="Object">button_simulasi</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="386686502337433" type="System">
+                                    <param id="0" name="Layout">Simulasi layout</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="344925937053748">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="488253442742188" type="Touch">
+                                    <param id="0" name="Object">button_quiz</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="129561893631830" type="System">
+                                    <param id="0" name="Layout">Quiz layout No 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-block sid="289293684359975">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="559670946222170" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="652211918141824" type="Audio">
+                    <param id="0" name="Audio file">y2mate.com - Kids Background Music Free Funny Song_480p</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;backsound&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
